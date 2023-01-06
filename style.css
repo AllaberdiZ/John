@@ -57,6 +57,12 @@
   padding: 9px 20px;
   margin: 7px 0;
   border: none;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #21243d;
+  transition-duration: 0.2s;
 }
 
 .hero-image {
