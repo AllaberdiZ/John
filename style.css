@@ -89,7 +89,7 @@
 }
 
 .recent-header {
-  padding: 10px 0;
+  padding: 20px 0;
   grid-area: header;
   width: 100%;
   display: flex;
@@ -115,5 +115,46 @@
 }
 
 .post {
-  width: 100%;
+  background-color: #fff;
+  width: 80%;
+  margin: 0 10px 30px 10px;
+  padding: 25px 40px;
+}
+
+.post h2 {
+  font-size: 26px;
+}
+
+.post p {
+  font-size: 16px;
+  width: 85%;
+}
+
+.post-details {
+  padding: 15px 0;
+}
+
+.post-details a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 400;
+  color: #21243d;
+}
+
+.post-details a:hover {
+  color: #ff6464;
+}
+
+.post-details span {
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.a {
+  margin-left: 0;
+}
+
+.b {
+  margin-right: 0;
 }
