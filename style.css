@@ -171,29 +171,35 @@
 
 .works {
   display: flex;
+  flex-direction: column;
   padding: 15px;
+  width: 100%;
 }
 
+.work-posts {
+  display: flex;
+}
 .work-img {
   width: 30%;
-  height: 150px;
+  height: 200px;
 }
 
 .work-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .work-info {
   width: 55%;
   margin: 0;
-  padding-top: 0;
   padding-left: 20px;
 }
 
 .work-info h2 {
   font-size: 30px;
+  padding: 0;
 }
 
 .work-category {
@@ -210,10 +216,27 @@
   padding: 0 10px;
 }
 
+.work-category .year:hover {
+  background-color: #ff6464;
+  transition-duration: 0.2s;
+}
+
 .work-category .category {
   font-size: 20px;
   font-weight: 400;
   color: #8695a4;
   text-decoration: none;
   margin-left: 10px;
+}
+
+.work-category .category:hover {
+  color: #ff6464;
+  transition-duration: 0.2s;
+}
+
+.work-lines {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin-top: 25px;
 }
