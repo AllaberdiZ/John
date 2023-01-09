@@ -247,3 +247,26 @@
   background-color: #e0e0e0;
   margin-top: 25px;
 }
+
+.footer {
+  padding: 40px 11% 20px 11%;
+  text-align: center;
+}
+.footer-icons i {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0 15px;
+}
+.footer-icons a {
+  text-decoration: none;
+}
+
+.footer-icons i:hover {
+  color: #ff6464;
+  transition-duration: 0.2s;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-top: 10px;
+}
