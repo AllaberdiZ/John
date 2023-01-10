@@ -13,7 +13,11 @@
   float: right;
 }
 
-.navbar a {
+.nav-hamburger {
+  display: none;
+}
+
+.navbar-links a {
   width: 100%;
   color: #000;
   text-align: center;
@@ -23,7 +27,7 @@
   padding: 14px 16px;
 }
 
-.navbar a:hover {
+.navbar-links a:hover {
   color: #ff6464;
   transition-duration: 250ms;
 }
@@ -269,4 +273,21 @@
 .footer p {
   font-size: 14px;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 100px) {
+  .nav-hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-hamburger .line {
+    width: 30px;
+    height: 3px;
+    background-color: #0000;
+    margin: 6px 0;
+  }
+  .navbar-links {
+    display: none;
+  }
 }
