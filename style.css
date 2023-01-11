@@ -8,12 +8,12 @@
 }
 
 .navbar {
-  overflow: hidden;
   margin: 20px 60px;
   float: right;
+  display: flex;
 }
 
-.nav-hamburger {
+.hamburger {
   display: none;
 }
 
