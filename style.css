@@ -123,7 +123,7 @@
 
 .post {
   background-color: #fff;
-  width: 80%;
+  max-width: 80%;
   margin: 0 10px 30px 10px;
   padding: 25px 40px;
 }
@@ -303,6 +303,7 @@
   }
 
   .section-first {
+    margin: 0;
     padding: 0;
     text-align: center;
     display: flex;
@@ -337,5 +338,51 @@
 
   .hero-text button {
     margin-bottom: 70px;
+  }
+
+  .recent-posts {
+    display: block;
+  }
+
+  .recent-header h3 {
+    margin: 0 auto;
+  }
+
+  .recent-header a {
+    display: none;
+  }
+
+  .post {
+    margin: 0 auto 30px auto;
+    padding: 20px;
+  }
+
+  .post h2 {
+    font-size: 22px;
+  }
+
+  .featured-works h3 {
+    text-align: center;
+  }
+
+  .work-posts {
+    display: block;
+  }
+
+  .work-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .work-info {
+    min-width: 80%;
+  }
+
+  .dashboard {
+    display: none;
+  }
+
+  .typography {
+    display: none;
   }
 }
